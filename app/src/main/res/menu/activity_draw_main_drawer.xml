@@ -1,0 +1,47 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_all"
+            android:icon="@drawable/ic_menu_bulleted"
+            android:title="All Passwords" />
+        <item
+            android:id="@+id/nav_passcreator"
+            android:icon="@drawable/ic_create_black_24dp"
+            android:title="Password Creator" />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_help_outline_black_24dp"
+            android:title="Help" />
+    </group>
+    <group
+        android:id="@+id/menu_middle"
+        android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/menu_demo"
+            android:orderInCategory="100"
+            android:icon="@drawable/ic_people_black_24dp"
+            android:title="Demo"/>
+    </group>
+
+    <group
+        android:id="@+id/menu_bottom"
+        android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/menu_account"
+            android:orderInCategory="100"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="Login"/>
+    </group>
+</menu>
